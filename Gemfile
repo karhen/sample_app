@@ -8,7 +8,7 @@ ruby "1.9.3"
 
 # gem 'strong_parameters' causing problems - leave it out for now
 gem 'rails', '4.0.8'
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'bootstrap-sass', '2.3.2'
 gem 'sprockets', '2.11.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
@@ -28,7 +28,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '4.0.1'
+  gem "sass", "~> 3.2.5"
+  gem 'sass-rails'
   gem 'coffee-rails', '4.0.1'
   gem 'uglifier', '2.1.1'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
