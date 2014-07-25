@@ -15,10 +15,9 @@ section {
 
 .center {
 	text-align: center;
-}
-
-.center h1 {
+	h1 {
 	margin-bottom: 10px;
+	}
 }
 
 /* typography */
@@ -60,11 +59,11 @@ p {
 	padding-top: 9px;
 	font-weight: bold;
 	line-height: 1;
-}
 
-#logo:hover {
+	&:hover {
 	color: $white;
 	text-decoration: none;
+	}
 }
 
 /* footer */
@@ -74,26 +73,25 @@ footer {
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
 	color: $white;
+	a {
+		color: $gray;
+		&:hover {
+		color: $grayDarker;
+		}
+	}
+	small {
+		float: left;
+	}
+	ul {
+		float: right;
+		list-style: none;
+		li {
+			float: left;
+			margin-left: 10px;
+		}
+	}
 }
 
-footer a {
-	color: $gray;
-}
 
-footer a:hover {
-	color: $grayDarker;
-}
 
-footer small {
-	float: left;
-}
 
-footer ul {
-	float: right;
-	list-style: none;
-}
-
-footer ul li {
-	float: left;
-	margin-left: 10px;
-}
