@@ -13,6 +13,7 @@ gem 'sprockets', '2.11.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
+gem 'bcrypt-ruby', '3.1.2'
 gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 
 # Bundle edge Rails instead:
